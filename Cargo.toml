@@ -1,0 +1,20 @@
+[package]
+name = "noiserand"
+version = "0.1.0"
+authors = ["Jan-Erik Rediger <janerik@fnordig.de>"]
+edition = "2018"
+description = "Random white noise turned into random numbers"
+license = "MIT"
+repository = "https://github.com/badboy/noiserand"
+
+[dependencies]
+base64 = "0.13.0"
+hound = "3.4.0"
+isahc = "1.2.0"
+log = "0.4.14"
+rand_core = "0.6.2"
+
+[dev-dependencies]
+cpal = "0.13.2"
+env_logger = "0.8.3"
+rand = "0.8.3"
